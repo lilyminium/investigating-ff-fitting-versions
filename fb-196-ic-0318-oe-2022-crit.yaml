@@ -1,0 +1,19 @@
+name: fb-196-ic-0318-oe-2022-crit
+channels:
+  - openeye
+  - conda-forge
+dependencies:
+  # fitting
+  - openff-toolkit-base
+  - openff-interchange-base ==0.3.18
+  - forcebalance ==1.9.6
+  - ndcctools
+  - openeye-toolkits ==2022.1.1
+  - geometric
+  - openmm
+
+  # plotting and analysis
+  - ipykernel
+  - seaborn
+  - mdanalysis
+  - rdkit

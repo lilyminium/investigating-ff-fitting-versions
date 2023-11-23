@@ -1,0 +1,23 @@
+name: fb-195-tk-013-oe-2022-interchange-no-switch
+channels:
+  - openeye
+  - conda-forge
+dependencies:
+  # fitting
+  - openff-toolkit-base ==0.13
+  - forcebalance ==1.9.5
+  - ndcctools
+  - openeye-toolkits ==2022.1.1
+  - geometric
+  - openmm
+
+  # plotting and analysis
+  - ipykernel
+  - seaborn
+  - mdanalysis
+  - rdkit
+
+  - pip
+
+  - pip:
+    - -e /data/chodera/lilywang/pydev/openff-interchange/
