@@ -1,0 +1,9 @@
+# ignore LSF output files
+*.e
+*.o
+
+# ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# ignore targets as that's a lot of files
+targets
