@@ -1,0 +1,16 @@
+74c74
+< 		<Force alpha="0" cutoff=".9" dispersionCorrection="1" ewaldTolerance=".0005" exceptionsUsePeriodic="0" forceGroup="1" includeDirectSpace="1" ljAlpha="0" ljnx="0" ljny="0" ljnz="0" method="0" name="NonbondedForce" nx="0" ny="0" nz="0" recipForceGroup="-1" rfDielectric="78.3" switchingDistance="-1" type="NonbondedForce" useSwitchingFunction="0" version="4">
+---
+> 		<Force alpha="0" cutoff=".9" dispersionCorrection="1" ewaldTolerance=".0005" exceptionsUsePeriodic="0" forceGroup="0" includeDirectSpace="1" ljAlpha="0" ljnx="0" ljny="0" ljnz="0" method="0" name="Nonbonded force" nx="0" ny="0" nz="0" recipForceGroup="-1" rfDielectric="78.3" switchingDistance="-1" type="NonbondedForce" useSwitchingFunction="0" version="4">
+468c468
+< 		<Force forceGroup="0" name="PeriodicTorsionForce" type="PeriodicTorsionForce" usesPeriodic="0" version="2">
+---
+> 		<Force forceGroup="1" name="PeriodicTorsionForce" type="PeriodicTorsionForce" usesPeriodic="0" version="2">
+710c710
+< 		<Force forceGroup="3" name="HarmonicAngleForce" type="HarmonicAngleForce" usesPeriodic="0" version="2">
+---
+> 		<Force forceGroup="2" name="HarmonicAngleForce" type="HarmonicAngleForce" usesPeriodic="0" version="2">
+829c829
+< 		<Force forceGroup="2" name="HarmonicBondForce" type="HarmonicBondForce" usesPeriodic="0" version="2">
+---
+> 		<Force forceGroup="3" name="HarmonicBondForce" type="HarmonicBondForce" usesPeriodic="0" version="2">
